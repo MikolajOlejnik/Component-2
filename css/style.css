@@ -41,3 +41,7 @@ body {
   background-color: #20BF55;
   border: 0px 2px solid #FBFBFF;
 }
+
+#welcome {
+  margin: 20px 0px 40px 60px;
+}
