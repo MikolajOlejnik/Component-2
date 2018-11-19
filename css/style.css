@@ -35,7 +35,8 @@ body {
   background-color: #01BAEF;
 }
 
+/* Styling for the current page that the website is on */
 .active {
   background-color: #20BF55;
-  border: 0px 2px solid #FBFBFF; 
+  border: 0px 2px solid #FBFBFF;
 }
