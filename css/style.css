@@ -47,10 +47,8 @@ body {
   color: #FBFBFF;
 }
 
-#about {
-   
-}
 
-h2 heading {
 
+.heading {
+  text-align: left; 
 }
