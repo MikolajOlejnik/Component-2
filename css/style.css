@@ -1,7 +1,17 @@
-.navbar li {
+/* Styling for the navigation bar on each page */
+nav li {
   display: inline;
+  border-bottom: 2px solid #FBFBFF;
+  padding: 5px 10px;
+  text-decoration: none;
+  list-style-type: none;
 }
 
-.navbar li a {
-  text-decoration: none;
+nav li a {
+  color: black;
+}
+
+nav {
+  background-color: #01BAEF;
+  overflow: hidden;
 }
