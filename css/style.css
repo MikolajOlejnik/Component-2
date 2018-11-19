@@ -1,0 +1,7 @@
+.navbar li {
+  display: inline;
+}
+
+.navbar li a {
+  text-decoration: none;
+}
