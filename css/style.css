@@ -2,10 +2,11 @@
 nav li {
   display: inline;
   border-bottom: 2px solid #FBFBFF;
-  padding: 5px 20px;
+  padding: 5px 15px;
+  margin: 5px;
   text-decoration: none;
   list-style-type: none;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 nav li a {
@@ -16,7 +17,7 @@ nav {
   background-color: #0B4F6C;
   width: auto;
   overflow: hidden;
-  margin: 0px 5px;
+  padding: 0px 60px;
 }
 
 /* Styling which only applies once the pointer is hovering over the hyperlink */
