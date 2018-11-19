@@ -2,16 +2,33 @@
 nav li {
   display: inline;
   border-bottom: 2px solid #FBFBFF;
-  padding: 5px 10px;
+  padding: 5px 20px;
   text-decoration: none;
   list-style-type: none;
+  font-size: 30px;
 }
 
 nav li a {
-  color: black;
+  color: #FBFBFF;
 }
 
 nav {
-  background-color: #01BAEF;
+  background-color: #0B4F6C;
+  width: auto;
   overflow: hidden;
+  margin: 0px 5px;
+}
+
+/* Styling which only applies once the pointer is hovering over the hyperlink */
+nav li:hover {
+  border-bottom: 4px solid #FBFBFF;
+}
+
+nav li a:hover {
+  text-decoration: none;
+  color: #757575;
+}
+
+body {
+  background-color: #01BAEF;
 }
