@@ -83,3 +83,7 @@ footer li a:hover {
   color: #FBFBFF;
   background-color: #0D0630;
 }
+
+.container {
+  margin-left: 50px; 
+}
