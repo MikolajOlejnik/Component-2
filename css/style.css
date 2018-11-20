@@ -66,12 +66,15 @@ body {
 
 footer {
   background-color: #3A606E;
-  padding: 0px 65px;
+  padding: 10px 65px;
+  position: relative;
+  top: 50px;
 }
 
 footer li a {
   color: #FBFBFF;
   text-decoration: none;
+  font-family: tahoma;
 }
 
 footer li a:hover {
