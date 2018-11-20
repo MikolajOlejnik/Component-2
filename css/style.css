@@ -100,3 +100,11 @@ footer li a:hover {
   color: #FBFBFF;
   margin: 50px 65px 65px 65px;
 }
+
+button {
+  margin-top: 20px;
+  background-color: #3A606E;
+  color: #FBFBFF;
+  font-family: tahoma;
+  font-weight: bold;
+}
