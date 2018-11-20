@@ -41,12 +41,14 @@ body {
   border: 0px 2px solid #FBFBFF;
 }
 
-#welcome {
-  margin: 70px 0px 50px 65px;
-  color: #FBFBFF;
-  width: 1110px;
-  background-color: #0B4F6C;
+.home-main {
+  padding: 0px 65px;
+}
 
+#welcome {
+  margin: 70px 65px 50px 65px;
+  color: #FBFBFF;
+  background-color: #0B4F6C;
 }
 
 #welcome h1 {
@@ -88,8 +90,4 @@ footer li a:hover {
   text-decoration: none;
   color: #FBFBFF;
   background-color: #0D0630;
-}
-
-.container {
-  margin-left: 50px;
 }
