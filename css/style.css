@@ -16,7 +16,7 @@ nav li a {
 
 nav {
   padding: 5px 15px;
-  background-color: #0B4F6C;
+  background-color: #3A606E;
   width: auto;
   overflow: hidden;
   padding: 0px 60px;
@@ -33,41 +33,40 @@ nav li a:hover {
 }
 
 body {
-  background-color: #01BAEF;
+  background-color: #94B9AF;
 }
 
 /* Styling for the current page that the website is on */
 .active {
-  background-color: #20BF55;
+  background-color: #0D0630;
   border: 0px 2px solid #FBFBFF;
 }
 
 #welcome {
-  margin: 20px 0px 40px 60px;
+  margin: 20px 0px 40px 65px;
   color: #FBFBFF;
 }
 
 .heading {
   text-align: left;
-  background-color: #20BF55;
-  padding: 4px;
-  padding-left: 10px;
+  background-color: #0B4F6C;
+  padding: 20px 10px;
   color: #FBFBFF;
   min-height: 50px;
 }
 
 .home-info p {
   color: #FBFBFF;
-  padding: 4px;
-  padding-left: 10px;
+  padding: 20px 10px;
 }
 
 .home-info {
-  background-color: #20BF55
+  background-color: #0B4F6C;
 }
 
 footer {
-  background-color: #0B4F6C;
+  background-color: #3A606E;
+  padding: 0px 65px;
 }
 
 footer li a {
