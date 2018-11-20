@@ -50,7 +50,8 @@ body {
 .heading {
   text-align: left;
   background-color: #20BF55;
-  padding: 4px 2px;
+  padding: 4px;
+  padding-left: 10px;
   color: #FBFBFF;
-  height: 85px;
+  min-height: 50px;
 }
