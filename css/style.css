@@ -55,3 +55,13 @@ body {
   color: #FBFBFF;
   min-height: 50px;
 }
+
+p {
+  color: #FBFBFF;
+  padding: 4px;
+  padding-left: 10px;
+}
+
+.home-info {
+  background-color: #20BF55
+}
