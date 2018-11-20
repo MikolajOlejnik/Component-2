@@ -66,7 +66,7 @@ body {
 
 footer {
   background-color: #3A606E;
-  padding: 10px 60px;
+  padding: 16px 0px 1px 60px;
   position: relative;
   top: 50px;
 }
@@ -85,5 +85,5 @@ footer li a:hover {
 }
 
 .container {
-  margin-left: 50px; 
+  margin-left: 50px;
 }
