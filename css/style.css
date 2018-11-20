@@ -110,7 +110,7 @@ button {
   font-weight: bold;
 }
 
-.cv-main {
+.cv-main, .projects-main {
   margin: 20px 65px;
   background-color: #0B4F6C;
 }
