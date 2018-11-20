@@ -65,3 +65,18 @@ body {
 .home-info {
   background-color: #20BF55
 }
+
+footer {
+  background-color: #0B4F6C;
+}
+
+footer li a {
+  display: block;
+  color: #FBFBFF;
+  text-decoration: none;
+}
+
+footer li a:hover {
+  text-decoration: none;
+  color: #FBFBFF;
+}
