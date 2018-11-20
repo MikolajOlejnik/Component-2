@@ -61,6 +61,7 @@ body {
   padding: 20px 10px;
   color: #FBFBFF;
   min-height: 50px;
+  font-family: tahoma;
 }
 
 .home-info p {
@@ -107,4 +108,9 @@ button {
   color: #FBFBFF;
   font-family: tahoma;
   font-weight: bold;
+}
+
+.cv-main {
+  margin: 20px 65px;
+  background-color: #0B4F6C;
 }
