@@ -18,6 +18,12 @@ nav {
   overflow: hidden;
 }
 
+@media (min-width: 1200px) {
+    .cv-main img {
+      height: 100%;
+    }
+}
+
 @media (min-width: 768px) {
 
   nav {
@@ -43,6 +49,10 @@ nav {
 
   .projects-main, .cv-main {
     margin: 20px 65px;
+  }
+
+  .cv-main img {
+    width: 100%;
   }
 
 }
