@@ -18,7 +18,35 @@ nav {
   background-color: #3A606E;
   width: auto;
   overflow: hidden;
-  padding: 16px 0px 1px 60px;
+}
+
+@media (min-width: 600px) {
+  nav {
+    padding: 16px 0px 1px 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  nav li {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav ul {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+
+
 }
 
 /* Styling which only applies once the pointer is hovering over the hyperlink */
