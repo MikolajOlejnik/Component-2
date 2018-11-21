@@ -1,0 +1,194 @@
+/* Styling for the navigation bar on each page */
+nav li {
+  display: inline;
+  border-bottom: 2px solid #FBFBFF;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 25px;
+  font-family: tahoma;
+}
+
+a {
+  color: #FBFBFF;
+}
+
+nav {
+  background-color: #3A606E;
+  width: auto;
+  overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+    .cv-main img {
+      height: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+
+  nav {
+    padding: 16px 0px 1px 60px;
+  }
+
+  nav li {
+    padding: 5px 15px;
+    margin: 5px;
+  }
+
+  #welcome {
+    margin: 70px 65px 50px 65px;
+  }
+
+  .home-main {
+    padding: 0px 65px;
+  }
+
+  .home-main .heading {
+    height: 130px;
+  }
+
+  .projects-main, .cv-main, .form-format {
+    margin: 20px 65px;
+  }
+
+  .cv-main img {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 767px) {
+  nav li {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav li a {
+    display: block;
+    padding: 15px 95px;
+  }
+
+  nav ul {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  #welcome, .home-main, .projects-main, .cv-main, .form-format {
+    margin: 30px 0px 20px 0px;
+  }
+
+  .home-info {
+    margin-bottom: 40px;
+  }
+
+  .row, .col-md, .col-md-auto {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+/* Styling which only applies once the pointer is hovering over the hyperlink */
+nav li:hover {
+  border-bottom: 4px solid #FBFBFF;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FBFBFF;
+}
+
+body {
+  background-color: #94B9AF;
+}
+
+/* Styling for the current page that the website is on */
+.active {
+  background-color: #0D0630;
+  border: 0px 2px solid #FBFBFF;
+}
+
+#welcome {
+  color: #FBFBFF;
+  background-color: #0B4F6C;
+}
+
+#welcome h1 {
+  padding: 20px 10px;
+}
+
+.home-main img, .projects-main img, .cv-main img {
+  width: 100%;
+}
+
+.projects-main img {
+  height: 100%;
+}
+
+.heading {
+  text-align: left;
+  background-color: #0B4F6C;
+  padding: 20px 10px;
+  color: #FBFBFF;
+  min-height: 50px;
+  font-family: tahoma;
+}
+
+.home-info p {
+  color: #FBFBFF;
+  padding: 20px 10px;
+}
+
+.home-info {
+  background-color: #0B4F6C;
+}
+
+footer {
+  background-color: #3A606E;
+  padding: 16px 0px 1px 60px;
+  position: relative;
+  margin-top: 75px;
+}
+
+footer li a {
+  color: #FBFBFF;
+  text-decoration: none;
+  font-family: tahoma;
+  padding: 5px 5px;
+}
+
+footer li a:hover {
+  text-decoration: none;
+  color: #FBFBFF;
+  background-color: #0D0630;
+}
+
+.form-format {
+  text-align: left;
+  background-color: #0B4F6C;
+  padding: 20px 10px;
+  padding-bottom: 50px;
+  color: #FBFBFF;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #3A606E;
+  color: #FBFBFF;
+  font-family: tahoma;
+  font-weight: bold;
+}
+
+.cv-main, .projects-main {
+  background-color: #0B4F6C;
+}
