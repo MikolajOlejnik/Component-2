@@ -18,7 +18,8 @@ nav {
   overflow: hidden;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
+
   nav {
     padding: 16px 0px 1px 60px;
   }
@@ -35,9 +36,18 @@ nav {
   .home-main {
     padding: 0px 65px;
   }
+
+  .home-main .heading {
+    height: 130px;
+  }
+
+  .projects-main, .cv-main {
+    margin: 20px 65px;
+  }
+
 }
 
-@media (max-width: 799px) {
+@media (max-width: 767px) {
   nav li {
     display: flex;
     justify-content: center;
@@ -62,27 +72,20 @@ nav {
     width: 100%;
   }
 
-  #welcome, .home-main {
+  #welcome, .home-main, .projects-main, .cv-main {
     margin: 30px 0px 20px 0px;
-  }
-
-  .home-main img {
-    width: 100%;
   }
 
   .home-info {
     margin-bottom: 40px;
   }
 
-}
-
-@media (max-width: 767px) {
-
-  .row, .col-md {
+  .row, .col-md, .col-md-auto {
     width: 100%;
     margin: 0;
     padding: 0;
   }
+
 }
 
 /* Styling which only applies once the pointer is hovering over the hyperlink */
@@ -112,6 +115,14 @@ body {
 
 #welcome h1 {
   padding: 20px 10px;
+}
+
+.home-main img, .projects-main img {
+  width: 100%;
+}
+
+.projects-main img {
+  height: 100%;
 }
 
 .heading {
@@ -170,6 +181,5 @@ button {
 }
 
 .cv-main, .projects-main {
-  margin: 20px 65px;
   background-color: #0B4F6C;
 }
