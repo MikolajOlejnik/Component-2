@@ -27,6 +27,14 @@ nav {
     padding: 5px 15px;
     margin: 5px;
   }
+
+  #welcome {
+    margin: 70px 65px 50px 65px;
+  }
+
+  .home-main {
+    padding: 0px 65px;
+  }
 }
 
 @media (max-width: 799px) {
@@ -54,7 +62,9 @@ nav {
     width: 100%;
   }
 
-
+  #welcome, .home-main {
+    margin: 30px 0px 20px 0px;
+  }
 
 }
 
@@ -78,12 +88,7 @@ body {
   border: 0px 2px solid #FBFBFF;
 }
 
-.home-main {
-  padding: 0px 65px;
-}
-
 #welcome {
-  margin: 70px 65px 50px 65px;
   color: #FBFBFF;
   background-color: #0B4F6C;
 }
