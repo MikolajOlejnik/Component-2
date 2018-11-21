@@ -2,8 +2,6 @@
 nav li {
   display: inline;
   border-bottom: 2px solid #FBFBFF;
-  padding: 5px 15px;
-  margin: 5px;
   text-decoration: none;
   list-style-type: none;
   font-size: 25px;
@@ -20,17 +18,22 @@ nav {
   overflow: hidden;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   nav {
     padding: 16px 0px 1px 60px;
   }
+
+  nav li {
+    padding: 5px 15px;
+    margin: 5px;
+  }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 799px) {
   nav li {
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 100%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -39,6 +42,7 @@ nav {
   nav ul {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0px;
   }
 
   nav {
